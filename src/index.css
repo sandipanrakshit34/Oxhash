@@ -1,0 +1,27 @@
+@import url('https://fonts.cdnfonts.com/css/aeion-mono-test');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#HeroSection{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(./assets/images/heroImage.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.clients{
+    background-image: url(./assets/images/clients.png);
+    background-size: 100% 100%;
+}
+.empower{
+    background-image: url(./assets/images/empower.png);
+    background-size: 100% 100%;
+}
+.footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.66)), url(./assets/images/footer.jpg);
+    background-size: 100% 100%;
+}
+.glassMorfizam{
+    background-image: url(./assets//images/Display.png);
+    background-size: 100% 100%;
+}
